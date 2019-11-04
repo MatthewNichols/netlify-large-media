@@ -1,0 +1,27 @@
+{
+  "name": "netlify-large-media",
+  "version": "1.0.0",
+  "description": "Trying out Netlify Large Media Service in a new repository before I try it in code I care about. Might be useful to others wishing to do same.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy --input=./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewNichols/netlify-large-media.git"
+  },
+  "keywords": [
+    "website",
+    "lfs"
+  ],
+  "author": "Matthew Nichols",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthewNichols/netlify-large-media/issues"
+  },
+  "homepage": "https://github.com/MatthewNichols/netlify-large-media#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}
