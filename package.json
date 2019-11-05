@@ -4,8 +4,8 @@
   "description": "Trying out Netlify Large Media Service in a new repository before I try it in code I care about. Might be useful to others wishing to do same.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx @11ty/eleventy --input=./src"
+    "build": "npx @11ty/eleventy --input=./src",
+    "develop": "npx @11ty/eleventy --serve --input=./src"
   },
   "repository": {
     "type": "git",

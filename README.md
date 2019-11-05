@@ -20,3 +20,11 @@ I am assuming you have the repository cloned to your local and you have npm and 
 - Commit
 
 At this point any of the files that fit the tracking pattern get stored in Git LFS.
+
+## Eleventy
+I added a super simple Eleventy set up to allow looking at how it interacts with LFS. To run:
+
+- Open command line in local repository clone
+- First Run `npm install`
+- Then for build run `npm run build`
+- Or for development `npm develop`
